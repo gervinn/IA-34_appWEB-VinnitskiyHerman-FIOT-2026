@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MacShnaknels</title>
+  <meta name="description" content="Адаптивний вебзастосунок ресторану швидкого харчування MacShnaknels" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="header" id="top">
+    <div class="container header__wrapper">
+      <a href="#top" class="logo">Mac<span>Shnaknels</span></a>
+
+      <button class="burger" id="burger" aria-label="Відкрити меню" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <a href="#hero">Головна</a>
+        <a href="#menu">Меню</a>
+        <a href="#offers">Акції</a>
+        <a href="#about">Про нас</a>
+        <a href="#contacts">Контакти</a>
+      </nav>
+
+      <button class="cart-button" id="openCart" aria-label="Відкрити кошик">
+        Кошик <span id="cartCount">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero__wrapper">
+        <div class="hero__content reveal">
+          <p class="hero__label">Швидко, смачно, зручно</p>
+          <h1>Адаптивний сайт ресторану <span>MacShnaknels</span></h1>
+          <p class="hero__text">
+            Обирай улюблені бургери, напої та десерти, додавай до кошика й оформлюй замовлення
+            в кілька кліків.
+          </p>
+          <div class="hero__actions">
+            <a href="#menu" class="btn btn--primary">Переглянути меню</a>
+            <a href="#offers" class="btn btn--secondary">Наші акції</a>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal">
+          <div class="hero-card hero-card--big">
+            <img src="assets/images/hero-burger.jpg" alt="Головний бургер" />
+          </div>
+          <div class="hero-card hero-card--small">
+            <img src="assets/images/hero-drink.jpg" alt="Напій" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container features__grid">
+        <article class="feature reveal">
+          <h3>Свіжі інгредієнти</h3>
+          <p>Ми готуємо страви з якісних продуктів та дбаємо про смак кожної позиції.</p>
+        </article>
+        <article class="feature reveal">
+          <h3>Швидке замовлення</h3>
+          <p>Користувач може обрати товар, змінити кількість і одразу побачити суму покупки.</p>
+        </article>
+        <article class="feature reveal">
+          <h3>Адаптивний інтерфейс</h3>
+          <p>Сайт зручно працює на комп’ютері, планшеті та смартфоні завдяки гнучкій верстці.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="menu section" id="menu">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-head__label">Меню</p>
+          <h2>Популярні позиції</h2>
+          <p>Оберіть категорію та додайте страви до кошика.</p>
+        </div>
+
+        <div class="filters reveal" id="filters">
+          <button class="filter-btn active" data-category="all">Усе</button>
+          <button class="filter-btn" data-category="burger">Бургери</button>
+          <button class="filter-btn" data-category="drink">Напої</button>
+          <button class="filter-btn" data-category="dessert">Десерти</button>
+        </div>
+
+        <div class="menu-grid" id="menuGrid"></div>
+      </div>
+    </section>
+
+    <section class="offers section" id="offers">
+      <div class="container offers__grid">
+        <article class="offer-card reveal">
+          <div>
+            <p class="offer-card__label">Акція тижня</p>
+            <h3>Комбо 2+1</h3>
+            <p>Замовляй два бургери та отримуй напій у подарунок.</p>
+          </div>
+          <a href="#menu" class="btn btn--primary">Обрати комбо</a>
+        </article>
+
+        <article class="offer-card offer-card--dark reveal">
+          <div>
+            <p class="offer-card__label">Новинка</p>
+            <h3>Сезонний бургер</h3>
+            <p>Соковита котлета, фірмовий соус і хрусткі овочі в новому поєднанні смаків.</p>
+          </div>
+          <a href="#menu" class="btn btn--secondary btn--light">Дивитися меню</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container about__grid">
+        <div class="about__image reveal">
+          <img src="assets/images/Снимок экрана 2026-03-17 235417.png" alt="Інтер'єр ресторану" />
+        </div>
+        <div class="about__content reveal">
+          <p class="section-head__label">Про нас</p>
+          <h2>MacShnaknels — сучасний фастфуд онлайн</h2>
+          <p>
+            Сайт створено для зручного перегляду меню, вибору страв та імітації процесу оформлення
+            замовлення. Інтерфейс поєднує зручну навігацію, адаптивність і візуально привабливий дизайн.
+          </p>
+          <ul class="about__list">
+            <li>зручна навігація між розділами</li>
+            <li>адаптивна сітка карток</li>
+            <li>інтерактивний кошик на JavaScript</li>
+            <li>плавні анімації та hover-ефекти</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contacts">
+    <div class="container footer__wrapper">
+      <div>
+        <a href="#top" class="logo logo--footer">Mac<span>Shnaknels</span></a>
+        <p class="footer__text">Адаптивний навчальний вебзастосунок ресторану швидкого харчування.</p>
+      </div>
+
+      <div class="footer__contacts">
+        <h3>Контакти</h3>
+        <p>м. Київ, вул. Смачна, 12</p>
+        <p>+380 (99) 123-45-67</p>
+        <p>macshnaknels@example.com</p>
+      </div>
+
+      <div class="footer__contacts">
+        <h3>Графік роботи</h3>
+        <p>Пн–Пт: 08:00–22:00</p>
+        <p>Сб–Нд: 09:00–23:00</p>
+      </div>
+    </div>
+  </footer>
+
+  <aside class="cart" id="cart">
+    <div class="cart__overlay" id="cartOverlay"></div>
+    <div class="cart__panel">
+      <div class="cart__header">
+        <h2>Ваш кошик</h2>
+        <button id="closeCart" class="cart__close" aria-label="Закрити кошик">×</button>
+      </div>
+
+      <div class="cart__items" id="cartItems">
+        <p class="cart__empty">Кошик порожній</p>
+      </div>
+
+      <div class="cart__footer">
+        <div class="cart__summary">
+          <span>Сума:</span>
+          <strong id="cartTotal">0 ₴</strong>
+        </div>
+        <button class="btn btn--primary btn--full" id="checkoutBtn">Оформити замовлення</button>
+      </div>
+    </div>
+  </aside>
+
+  <div class="toast" id="toast">Товар додано до кошика</div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

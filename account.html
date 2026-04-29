@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Профіль | MacShnaknels</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/auth.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__wrapper">
+      <a href="index.html" class="logo">Mac<span>Shnaknels</span></a>
+
+      <nav class="nav">
+        <a href="index.html">Головна</a>
+        <a href="index.html#menu">Меню</a>
+        <a href="index.html#offers">Акції</a>
+        <a href="admin.html" id="accountAdminLink" style="display: none;">Адмін-панель</a>
+      </nav>
+
+      <button id="accountLogoutBtn" class="logout-btn">Вийти</button>
+    </div>
+  </header>
+
+  <main class="profile-page">
+    <div class="container profile-grid">
+      <section class="profile-card">
+        <h1>Мій профіль</h1>
+        <p id="profileInfo">Завантаження профілю...</p>
+
+        <div class="profile-actions">
+          <button id="refreshTokenBtn" class="btn btn--secondary">
+            Оновити access token
+          </button>
+
+          <button id="deleteAccountBtn" class="danger-btn">
+            Видалити акаунт
+          </button>
+        </div>
+
+        <p id="profileMessage" class="message"></p>
+      </section>
+
+      <section class="profile-card">
+        <h2>Оновлення профілю</h2>
+
+        <form id="profileForm">
+          <label>
+            Ім’я
+            <input type="text" id="profileName" required />
+          </label>
+
+          <label>
+            Email
+            <input type="email" id="profileEmail" required />
+          </label>
+
+          <button type="submit">Оновити профіль</button>
+        </form>
+
+        <p id="profileUpdateMessage" class="message"></p>
+      </section>
+
+      <section class="profile-card">
+        <h2>Зміна пароля</h2>
+
+        <form id="changePasswordForm">
+          <label>
+            Старий пароль
+            <input type="password" id="oldPassword" required />
+          </label>
+
+          <label>
+            Новий пароль
+            <input type="password" id="newPassword" required />
+          </label>
+
+          <label>
+            Підтвердження нового пароля
+            <input type="password" id="confirmNewPassword" required />
+          </label>
+
+          <button type="submit">Змінити пароль</button>
+        </form>
+
+        <p id="passwordMessage" class="message"></p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 MacShnaknels. Усі права захищено.</p>
+    </div>
+  </footer>
+
+  <script src="js/account.js"></script>
+</body>
+</html>

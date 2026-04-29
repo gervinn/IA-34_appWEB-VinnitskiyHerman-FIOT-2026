@@ -3,15 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Реєстрація | MacShnaknels</title>
+
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/auth.css" />
 </head>
 <body>
-
   <header class="header">
-    <div class="container header-content">
-      <a href="index.html" class="logo">MacShnaknels</a>
+    <div class="container header__wrapper">
+      <a href="index.html" class="logo">Mac<span>Shnaknels</span></a>
 
       <nav class="nav">
         <a href="index.html">Головна</a>
@@ -25,7 +26,7 @@
   <main class="auth-page">
     <section class="auth-card">
       <h1>Реєстрація</h1>
-      <p>Створіть акаунт для оформлення замовлень у MacShnaknels.</p>
+      <p>Створіть акаунт для роботи з вебзастосунком MacShnaknels.</p>
 
       <form id="registerForm">
         <label>
@@ -40,7 +41,12 @@
 
         <label>
           Пароль
-          <input type="password" id="password" placeholder="Введіть пароль" required />
+          <input type="password" id="password" placeholder="Мінімум 6 символів" required />
+        </label>
+
+        <label>
+          Підтвердження пароля
+          <input type="password" id="confirmPassword" placeholder="Повторіть пароль" required />
         </label>
 
         <button type="submit">Зареєструватися</button>

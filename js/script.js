@@ -284,6 +284,7 @@ const logoutBtn = document.getElementById("logoutBtn");
 
 const registerNavLink = document.getElementById("registerNavLink");
 const loginNavLink = document.getElementById("loginNavLink");
+const accountNavLink = document.getElementById("accountNavLink");
 
 function renderAccountPanel() {
   const userData = localStorage.getItem("macshnaknelsUser");
@@ -295,6 +296,7 @@ function renderAccountPanel() {
 
     if (registerNavLink) registerNavLink.style.display = "inline-block";
     if (loginNavLink) loginNavLink.style.display = "inline-block";
+    if (accountNavLink) accountNavLink.style.display = "none";
 
     if (adminPanelLink) adminPanelLink.style.display = "none";
     if (logoutBtn) logoutBtn.style.display = "none";
@@ -308,10 +310,9 @@ function renderAccountPanel() {
 
   if (registerNavLink) registerNavLink.style.display = "none";
   if (loginNavLink) loginNavLink.style.display = "none";
+  if (accountNavLink) accountNavLink.style.display = "inline-block";
 
-  if (logoutBtn) {
-    logoutBtn.style.display = "inline-block";
-  }
+  if (logoutBtn) logoutBtn.style.display = "inline-block";
 
   if (user.role === "admin" && adminPanelLink) {
     adminPanelLink.style.display = "inline-block";
@@ -321,9 +322,25 @@ function renderAccountPanel() {
 }
 
 if (logoutBtn) {
-  logoutBtn.addEventListener("click", () => {
+  logoutBtn.addEventListener("click", async () => {
+    const token = localStorage.getItem("macshnaknelsToken");
+
+    try {
+      if (token) {
+        await fetch("http://localhost:3000/api/auth/logout", {
+          method: "POST",
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        });
+      }
+    } catch (error) {
+      console.log("Logout на backend не виконано, але localStorage очищено");
+    }
+
     localStorage.removeItem("macshnaknelsUser");
     localStorage.removeItem("macshnaknelsToken");
+    localStorage.removeItem("macshnaknelsRefreshToken");
 
     window.location.href = "index.html";
   });

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Реєстрація | MacShnaknels</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/auth.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header-content">
+      <a href="index.html" class="logo">MacShnaknels</a>
+
+      <nav class="nav">
+        <a href="index.html">Головна</a>
+        <a href="index.html#menu">Меню</a>
+        <a href="index.html#offers">Акції</a>
+        <a href="login.html">Вхід</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="auth-page">
+    <section class="auth-card">
+      <h1>Реєстрація</h1>
+      <p>Створіть акаунт для оформлення замовлень у MacShnaknels.</p>
+
+      <form id="registerForm">
+        <label>
+          Ім’я
+          <input type="text" id="name" placeholder="Введіть ім’я" required />
+        </label>
+
+        <label>
+          Email
+          <input type="email" id="email" placeholder="example@gmail.com" required />
+        </label>
+
+        <label>
+          Пароль
+          <input type="password" id="password" placeholder="Введіть пароль" required />
+        </label>
+
+        <button type="submit">Зареєструватися</button>
+      </form>
+
+      <p id="registerMessage" class="message"></p>
+
+      <p class="auth-link">
+        Уже маєте акаунт?
+        <a href="login.html">Увійти</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 MacShnaknels. Усі права захищено.</p>
+    </div>
+  </footer>
+
+  <script src="js/register.js"></script>
+</body>
+</html>

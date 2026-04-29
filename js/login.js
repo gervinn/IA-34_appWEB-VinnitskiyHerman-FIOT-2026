@@ -1,0 +1,46 @@
+const loginForm = document.getElementById("loginForm");
+const loginMessage = document.getElementById("loginMessage");
+
+loginForm.addEventListener("submit", async (event) => {
+  event.preventDefault();
+
+  const email = document.getElementById("email").value.trim();
+  const password = document.getElementById("password").value.trim();
+
+  loginMessage.textContent = "";
+  loginMessage.className = "message";
+
+  try {
+    const response = await fetch("http://localhost:3000/api/auth/login", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        email,
+        password,
+      }),
+    });
+
+    const data = await response.json();
+
+    if (!response.ok) {
+      loginMessage.textContent = data.message || "Помилка входу";
+      loginMessage.classList.add("error");
+      return;
+    }
+
+    localStorage.setItem("macshnaknelsToken", data.token);
+    localStorage.setItem("macshnaknelsUser", JSON.stringify(data.user));
+
+    loginMessage.textContent = `Вітаємо, ${data.user.name}! Вхід виконано успішно.`;
+    loginMessage.classList.add("success");
+
+    setTimeout(() => {
+      window.location.href = "index.html";
+    }, 1000);
+  } catch (error) {
+    loginMessage.textContent = "Backend не запущено або сталася помилка з'єднання";
+    loginMessage.classList.add("error");
+  }
+});

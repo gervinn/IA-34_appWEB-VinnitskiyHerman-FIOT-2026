@@ -1,0 +1,149 @@
+.admin-page {
+  min-height: 100vh;
+  padding: 3rem 0;
+  background: #fff7e0;
+}
+
+.admin-head {
+  margin-bottom: 2rem;
+}
+
+.admin-head h1 {
+  font-size: 2.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.admin-section {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 1.3rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0.8rem 2rem rgba(0, 0, 0, 0.08);
+}
+
+.admin-section h2 {
+  margin-bottom: 1rem;
+}
+
+.admin-table-wrapper {
+  overflow-x: auto;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 0.9rem;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.admin-table th {
+  background: #ffbc0d;
+  color: #222;
+}
+
+.admin-table select,
+.admin-table button {
+  padding: 0.45rem 0.7rem;
+  border-radius: 0.5rem;
+}
+
+.admin-delete-btn {
+  border: none;
+  background: #d71920;
+  color: #fff;
+  cursor: pointer;
+}
+
+.admin-save-btn {
+  border: none;
+  background: #198754;
+  color: #fff;
+  cursor: pointer;
+}
+
+.admin-form {
+  display: grid;
+  gap: 1rem;
+}
+
+.admin-form label {
+  display: grid;
+  gap: 0.4rem;
+  font-weight: 700;
+}
+
+.admin-form input,
+.admin-form textarea {
+  width: 100%;
+  padding: 0.9rem;
+  border: 1px solid #ddd;
+  border-radius: 0.8rem;
+  font-family: inherit;
+}
+
+.admin-form textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+
+.posts-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.post-card {
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 1rem;
+  background: #fffdf6;
+}
+
+.post-card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.post-card p {
+  margin-bottom: 1rem;
+}
+
+.post-actions {
+  display: flex;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.post-actions button {
+  border: none;
+  padding: 0.6rem 0.9rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.edit-post-btn {
+  background: #ffbc0d;
+  color: #222;
+}
+
+.delete-post-btn {
+  background: #d71920;
+  color: #fff;
+}
+
+.admin-message {
+  margin: 1rem 0;
+  font-weight: 700;
+}
+
+.admin-message.success {
+  color: #198754;
+}
+
+.admin-message.error {
+  color: #d71920;
+}

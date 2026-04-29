@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Адмін-панель | MacShnaknels</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/admin.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__wrapper">
+      <a href="index.html" class="logo">Mac<span>Shnaknels</span></a>
+
+      <nav class="nav">
+        <a href="index.html">Головна</a>
+        <a href="index.html#menu">Меню</a>
+        <a href="index.html#offers">Акції</a>
+        <a href="index.html#contacts">Контакти</a>
+      </nav>
+
+      <div class="account-panel">
+        <span id="adminAccount">Адмін</span>
+        <button id="adminLogoutBtn" class="logout-btn">Вийти</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="admin-page">
+    <div class="container">
+      <section class="admin-head">
+        <h1>Адмін-панель MacShnaknels</h1>
+        <p>Керування користувачами, ролями та публікаціями сайту.</p>
+      </section>
+
+      <section class="admin-section">
+        <h2>Користувачі</h2>
+        <div id="usersMessage" class="admin-message"></div>
+        <div class="admin-table-wrapper">
+          <table class="admin-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Ім’я</th>
+                <th>Email</th>
+                <th>Роль</th>
+                <th>Дії</th>
+              </tr>
+            </thead>
+            <tbody id="usersTable"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="admin-section">
+        <h2>Створити пост / акцію</h2>
+
+        <form id="postForm" class="admin-form">
+          <input type="hidden" id="postId" />
+
+          <label>
+            Назва
+            <input type="text" id="postTitle" placeholder="Наприклад: Нова акція" required />
+          </label>
+
+          <label>
+            Текст
+            <textarea id="postContent" placeholder="Опис акції або новини" required></textarea>
+          </label>
+
+          <button type="submit" class="btn btn--primary">Зберегти</button>
+          <button type="button" id="cancelEditBtn" class="btn btn--secondary">Скасувати редагування</button>
+        </form>
+
+        <div id="postsMessage" class="admin-message"></div>
+      </section>
+
+      <section class="admin-section">
+        <h2>Пости / Акції</h2>
+        <div id="postsList" class="posts-list"></div>
+      </section>
+    </div>
+  </main>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>

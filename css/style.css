@@ -696,3 +696,54 @@ button {
     width: 100%;
   }
 }
+.account-panel {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+#currentAccount {
+  color: #222;
+  background: #fff4cf;
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+}
+
+.admin-panel-link {
+  display: none;
+  color: #222;
+  background: #ffbc0d;
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.admin-panel-link:hover {
+  background: #f5a400;
+}
+
+.logout-btn {
+  display: none;
+  border: none;
+  background: #d71920;
+  color: #fff;
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.logout-btn:hover {
+  background: #b5141a;
+}
+
+@media (max-width: 768px) {
+  .account-panel {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

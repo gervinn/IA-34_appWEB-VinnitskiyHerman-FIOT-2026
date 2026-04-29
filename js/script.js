@@ -278,3 +278,55 @@ document.querySelectorAll('.reveal').forEach(element => observer.observe(element
 
 renderProducts();
 renderCart();
+const currentAccount = document.getElementById("currentAccount");
+const adminPanelLink = document.getElementById("adminPanelLink");
+const logoutBtn = document.getElementById("logoutBtn");
+
+const registerNavLink = document.getElementById("registerNavLink");
+const loginNavLink = document.getElementById("loginNavLink");
+
+function renderAccountPanel() {
+  const userData = localStorage.getItem("macshnaknelsUser");
+
+  if (!currentAccount) return;
+
+  if (!userData) {
+    currentAccount.textContent = "Гість";
+
+    if (registerNavLink) registerNavLink.style.display = "inline-block";
+    if (loginNavLink) loginNavLink.style.display = "inline-block";
+
+    if (adminPanelLink) adminPanelLink.style.display = "none";
+    if (logoutBtn) logoutBtn.style.display = "none";
+
+    return;
+  }
+
+  const user = JSON.parse(userData);
+
+  currentAccount.textContent = `Ви увійшли як: ${user.name} (${user.role})`;
+
+  if (registerNavLink) registerNavLink.style.display = "none";
+  if (loginNavLink) loginNavLink.style.display = "none";
+
+  if (logoutBtn) {
+    logoutBtn.style.display = "inline-block";
+  }
+
+  if (user.role === "admin" && adminPanelLink) {
+    adminPanelLink.style.display = "inline-block";
+  } else if (adminPanelLink) {
+    adminPanelLink.style.display = "none";
+  }
+}
+
+if (logoutBtn) {
+  logoutBtn.addEventListener("click", () => {
+    localStorage.removeItem("macshnaknelsUser");
+    localStorage.removeItem("macshnaknelsToken");
+
+    window.location.href = "index.html";
+  });
+}
+
+renderAccountPanel();

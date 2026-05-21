@@ -1,3 +1,8 @@
+const logger = require("./config/logger");
+const upload = require("./middleware/upload");
+const responseTimeMiddleware = require("./middleware/responseTime");
+const errorHandler = require("./middleware/errorHandler");
+
 const express = require("express");
 const cors = require("cors");
 const bcrypt = require("bcryptjs");
@@ -23,22 +28,36 @@ app.use(cors());
 app.use(express.json());
 app.use(passport.initialize());
 
+// Morgan — логування HTTP-запитів у консоль
+app.use(morgan("dev"));
+
+// Middleware для вимірювання часу відповіді
+app.use(responseTimeMiddleware);
+
+logger.info("MacShnaknels server started");
+
 const logsDir = path.join(__dirname, "../logs");
 
 if (!fs.existsSync(logsDir)) {
   fs.mkdirSync(logsDir);
 }
 
+// Morgan — файлове логування HTTP-запитів
 const accessLogStream = fs.createWriteStream(path.join(logsDir, "access.log"), {
   flags: "a",
 });
 
 app.use(morgan("combined", { stream: accessLogStream }));
-app.use(morgan("dev"));
 
 function logError(error, req) {
-  const message = `[${new Date().toISOString()}] ${req.method} ${req.originalUrl} - ${error.message}\n`;
-  fs.appendFileSync(path.join(logsDir, "errors.log"), message);
+  const message = `${req.method} ${req.originalUrl} - ${error.message}`;
+
+  logger.error(message);
+
+  fs.appendFileSync(
+    path.join(logsDir, "errors.log"),
+    `[${new Date().toISOString()}] ${message}\n`
+  );
 }
 
 function generateAccessToken(user) {
@@ -218,9 +237,83 @@ if (googleConfigured) {
   );
 }
 
+// Перевірка роботи сервера
 app.get("/", (req, res) => {
+  logger.info("GET / endpoint was called");
+
   res.json({
+    success: true,
     message: "MacShnaknels REST API працює",
+    server: "Node.js + Express",
+    status: "OK",
+  });
+});
+
+// Моніторинг стану сервера
+app.get("/status", (req, res) => {
+  const memoryUsage = process.memoryUsage();
+
+  logger.info("Server status requested");
+
+  res.json({
+    success: true,
+    status: "OK",
+    uptime: process.uptime(),
+    memoryUsage: {
+      rss: memoryUsage.rss,
+      heapTotal: memoryUsage.heapTotal,
+      heapUsed: memoryUsage.heapUsed,
+      external: memoryUsage.external,
+    },
+    timestamp: new Date().toISOString(),
+  });
+});
+
+// Завантаження одного файлу
+app.post("/upload", upload.single("file"), (req, res) => {
+  if (!req.file) {
+    return res.status(400).json({
+      success: false,
+      message: "Файл не було завантажено",
+    });
+  }
+
+  logger.info(`Single file uploaded: ${req.file.filename}`);
+
+  res.json({
+    success: true,
+    message: "Файл успішно завантажено",
+    file: {
+      originalName: req.file.originalname,
+      filename: req.file.filename,
+      mimetype: req.file.mimetype,
+      size: req.file.size,
+      path: req.file.path,
+    },
+  });
+});
+
+// Завантаження кількох файлів
+app.post("/upload/multiple", upload.array("files", 5), (req, res) => {
+  if (!req.files || req.files.length === 0) {
+    return res.status(400).json({
+      success: false,
+      message: "Файли не було завантажено",
+    });
+  }
+
+  logger.info(`Multiple files uploaded: ${req.files.length}`);
+
+  res.json({
+    success: true,
+    message: "Файли успішно завантажено",
+    files: req.files.map((file) => ({
+      originalName: file.originalname,
+      filename: file.filename,
+      mimetype: file.mimetype,
+      size: file.size,
+      path: file.path,
+    })),
   });
 });
 
@@ -346,7 +439,8 @@ app.post(
 
       if (user.lockUntil && new Date(user.lockUntil) > new Date()) {
         return res.status(429).json({
-          message: "Акаунт тимчасово заблоковано через велику кількість невдалих спроб входу",
+          message:
+            "Акаунт тимчасово заблоковано через велику кількість невдалих спроб входу",
         });
       }
 
@@ -562,9 +656,7 @@ app.put(
   "/api/auth/change-password",
   authMiddleware,
   [
-    body("oldPassword")
-      .notEmpty()
-      .withMessage("Старий пароль є обов’язковим"),
+    body("oldPassword").notEmpty().withMessage("Старий пароль є обов’язковим"),
 
     body("newPassword")
       .isLength({ min: 6 })
@@ -664,7 +756,8 @@ app.post(
 
       if (!user) {
         return res.json({
-          message: "Якщо email існує, інструкцію для відновлення буде створено",
+          message:
+            "Якщо email існує, інструкцію для відновлення буде створено",
         });
       }
 
@@ -697,9 +790,7 @@ app.post(
 app.post(
   "/api/auth/reset-password",
   [
-    body("token")
-      .notEmpty()
-      .withMessage("Токен відновлення є обов’язковим"),
+    body("token").notEmpty().withMessage("Токен відновлення є обов’язковим"),
 
     body("newPassword")
       .isLength({ min: 6 })
@@ -1253,14 +1344,8 @@ app.delete(
   }
 );
 
-app.use((error, req, res, next) => {
-  logError(error, req);
-
-  res.status(500).json({
-    message: "Внутрішня помилка сервера",
-    error: error.message,
-  });
-});
+// Глобальна обробка помилок
+app.use(errorHandler);
 
 const PORT = process.env.PORT || 3000;
 
@@ -1269,12 +1354,15 @@ async function startServer() {
     await sequelize.authenticate();
     await sequelize.sync();
 
+    logger.info("Підключення до MySQL через Sequelize успішне");
     console.log("Підключення до MySQL через Sequelize успішне");
 
     app.listen(PORT, () => {
+      logger.info(`Сервер працює на http://localhost:${PORT}`);
       console.log(`Сервер працює на http://localhost:${PORT}`);
     });
   } catch (error) {
+    logger.error(`Помилка запуску сервера: ${error.message}`);
     console.error("Помилка запуску сервера:", error.message);
   }
 }

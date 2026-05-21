@@ -1,0 +1,544 @@
+[2026-05-21 18:06:21] INFO: GET / endpoint was called
+[2026-05-21 18:11:01] INFO: MacShnaknels server started
+[2026-05-21 18:11:01] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:11:01] INFO: Сервер працює на http://localhost:3000
+[2026-05-21 18:11:06] INFO: GET / endpoint was called
+[2026-05-21 18:11:06] INFO: GET / - 304 - 4ms
+[2026-05-21 18:12:06] INFO: Server status requested
+[2026-05-21 18:12:06] INFO: GET /status - 200 - 2ms
+[2026-05-21 18:12:41] INFO: GET /upload - 404 - 3ms
+[2026-05-21 18:16:19] INFO: MacShnaknels server started
+[2026-05-21 18:16:19] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:16:19] INFO: Сервер працює на http://localhost:3000
+[2026-05-21 18:16:22] INFO: GET / endpoint was called
+[2026-05-21 18:16:22] INFO: GET / - 200 - 6ms
+[2026-05-21 18:16:22] INFO: GET /favicon.ico - 404 - 2ms
+[2026-05-21 18:16:34] INFO: GET / endpoint was called
+[2026-05-21 18:16:34] INFO: GET / - 304 - 1ms
+[2026-05-21 18:18:22] INFO: MacShnaknels server started
+[2026-05-21 18:18:22] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:18:22] INFO: Сервер працює на http://localhost:3000
+[2026-05-21 18:20:18] INFO: GET / endpoint was called
+[2026-05-21 18:20:18] INFO: GET / - 304 - 5ms
+[2026-05-21 18:21:49] INFO: MacShnaknels server started
+[2026-05-21 18:21:49] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:21:49] INFO: Сервер працює на http://localhost:3000
+[2026-05-21 18:22:34] INFO: MacShnaknels server started
+[2026-05-21 18:22:34] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:22:34] INFO: Сервер працює на http://localhost:3000
+[2026-05-21 18:23:19] INFO: POST /api/auth/login - 200 - 91ms
+[2026-05-21 18:24:54] INFO: MacShnaknels server started
+[2026-05-21 18:24:54] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:24:54] INFO: Сервер працює на http://localhost:3000
+[2026-05-21 18:24:54] INFO: MacShnaknels server started
+[2026-05-21 18:24:54] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:24:55] INFO: MacShnaknels server started
+[2026-05-21 18:24:56] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:24:57] INFO: MacShnaknels server started
+[2026-05-21 18:24:57] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:24:58] INFO: GET / endpoint was called
+[2026-05-21 18:24:58] INFO: GET / - 304 - 8ms
+[2026-05-21 18:24:58] INFO: MacShnaknels server started
+[2026-05-21 18:24:58] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:24:59] INFO: MacShnaknels server started
+[2026-05-21 18:24:59] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:25:00] INFO: MacShnaknels server started
+[2026-05-21 18:25:00] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:25:02] INFO: MacShnaknels server started
+[2026-05-21 18:25:02] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:25:03] INFO: MacShnaknels server started
+[2026-05-21 18:25:03] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:25:04] INFO: MacShnaknels server started
+[2026-05-21 18:25:04] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:25:05] INFO: MacShnaknels server started
+[2026-05-21 18:25:05] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:25:06] INFO: MacShnaknels server started
+[2026-05-21 18:25:06] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:25:07] INFO: MacShnaknels server started
+[2026-05-21 18:25:07] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:25:08] INFO: MacShnaknels server started
+[2026-05-21 18:25:08] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:25:09] INFO: MacShnaknels server started
+[2026-05-21 18:25:09] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:25:10] INFO: MacShnaknels server started
+[2026-05-21 18:25:10] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:25:11] INFO: MacShnaknels server started
+[2026-05-21 18:25:11] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:25:12] INFO: MacShnaknels server started
+[2026-05-21 18:25:12] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:25:13] INFO: MacShnaknels server started
+[2026-05-21 18:25:13] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:25:14] INFO: MacShnaknels server started
+[2026-05-21 18:25:14] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:25:15] INFO: MacShnaknels server started
+[2026-05-21 18:25:15] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:25:16] INFO: MacShnaknels server started
+[2026-05-21 18:25:16] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:25:17] INFO: MacShnaknels server started
+[2026-05-21 18:25:17] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:25:18] INFO: MacShnaknels server started
+[2026-05-21 18:25:18] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:25:18] INFO: MacShnaknels server started
+[2026-05-21 18:25:19] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:25:20] INFO: MacShnaknels server started
+[2026-05-21 18:25:20] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:25:20] INFO: Сервер працює на http://localhost:3000
+[2026-05-21 18:32:29] INFO: GET / endpoint was called
+[2026-05-21 18:32:29] INFO: GET / - 304 - 6ms
+[2026-05-21 18:36:45] INFO: MacShnaknels server started
+[2026-05-21 18:36:45] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:36:45] INFO: Сервер працює на http://localhost:3000
+[2026-05-21 18:36:46] INFO: MacShnaknels server started
+[2026-05-21 18:36:46] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:36:47] INFO: MacShnaknels server started
+[2026-05-21 18:36:47] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:36:48] INFO: MacShnaknels server started
+[2026-05-21 18:36:48] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:36:49] INFO: GET / endpoint was called
+[2026-05-21 18:36:49] INFO: GET / - 304 - 6ms
+[2026-05-21 18:36:49] INFO: MacShnaknels server started
+[2026-05-21 18:36:49] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:36:50] INFO: MacShnaknels server started
+[2026-05-21 18:36:50] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:36:51] INFO: MacShnaknels server started
+[2026-05-21 18:36:51] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:36:52] INFO: MacShnaknels server started
+[2026-05-21 18:36:52] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:36:53] INFO: MacShnaknels server started
+[2026-05-21 18:36:53] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:36:54] INFO: MacShnaknels server started
+[2026-05-21 18:36:54] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:36:55] INFO: MacShnaknels server started
+[2026-05-21 18:36:55] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:36:55] INFO: MacShnaknels server started
+[2026-05-21 18:36:55] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:36:56] INFO: MacShnaknels server started
+[2026-05-21 18:36:56] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:36:57] INFO: MacShnaknels server started
+[2026-05-21 18:36:57] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:36:58] INFO: MacShnaknels server started
+[2026-05-21 18:36:58] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:36:59] INFO: MacShnaknels server started
+[2026-05-21 18:36:59] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:00] INFO: MacShnaknels server started
+[2026-05-21 18:37:00] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:01] INFO: MacShnaknels server started
+[2026-05-21 18:37:01] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:01] INFO: POST /api/auth/logout - 200 - 17ms
+[2026-05-21 18:37:02] INFO: MacShnaknels server started
+[2026-05-21 18:37:02] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:03] INFO: MacShnaknels server started
+[2026-05-21 18:37:03] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:04] INFO: MacShnaknels server started
+[2026-05-21 18:37:04] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:05] INFO: MacShnaknels server started
+[2026-05-21 18:37:05] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:05] INFO: MacShnaknels server started
+[2026-05-21 18:37:05] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:06] INFO: MacShnaknels server started
+[2026-05-21 18:37:06] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:07] INFO: MacShnaknels server started
+[2026-05-21 18:37:07] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:08] INFO: MacShnaknels server started
+[2026-05-21 18:37:08] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:09] INFO: MacShnaknels server started
+[2026-05-21 18:37:09] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:10] INFO: MacShnaknels server started
+[2026-05-21 18:37:10] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:11] INFO: MacShnaknels server started
+[2026-05-21 18:37:11] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:12] INFO: MacShnaknels server started
+[2026-05-21 18:37:12] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:12] INFO: MacShnaknels server started
+[2026-05-21 18:37:13] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:13] INFO: MacShnaknels server started
+[2026-05-21 18:37:13] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:14] INFO: MacShnaknels server started
+[2026-05-21 18:37:14] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:15] INFO: MacShnaknels server started
+[2026-05-21 18:37:15] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:16] INFO: MacShnaknels server started
+[2026-05-21 18:37:16] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:17] INFO: MacShnaknels server started
+[2026-05-21 18:37:17] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:17] INFO: MacShnaknels server started
+[2026-05-21 18:37:17] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:18] INFO: MacShnaknels server started
+[2026-05-21 18:37:19] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:20] INFO: MacShnaknels server started
+[2026-05-21 18:37:20] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:21] INFO: MacShnaknels server started
+[2026-05-21 18:37:21] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:22] INFO: MacShnaknels server started
+[2026-05-21 18:37:22] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:23] INFO: MacShnaknels server started
+[2026-05-21 18:37:23] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:25] INFO: MacShnaknels server started
+[2026-05-21 18:37:25] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:26] INFO: MacShnaknels server started
+[2026-05-21 18:37:26] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:27] INFO: MacShnaknels server started
+[2026-05-21 18:37:27] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:28] INFO: MacShnaknels server started
+[2026-05-21 18:37:28] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:28] INFO: POST /api/auth/login - 200 - 89ms
+[2026-05-21 18:37:28] INFO: MacShnaknels server started
+[2026-05-21 18:37:28] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:29] INFO: MacShnaknels server started
+[2026-05-21 18:37:29] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:30] INFO: MacShnaknels server started
+[2026-05-21 18:37:31] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:32] INFO: MacShnaknels server started
+[2026-05-21 18:37:32] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:33] INFO: MacShnaknels server started
+[2026-05-21 18:37:33] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:34] INFO: MacShnaknels server started
+[2026-05-21 18:37:34] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:35] INFO: MacShnaknels server started
+[2026-05-21 18:37:35] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:36] INFO: MacShnaknels server started
+[2026-05-21 18:37:36] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:36] INFO: MacShnaknels server started
+[2026-05-21 18:37:36] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:37] INFO: MacShnaknels server started
+[2026-05-21 18:37:37] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:38] INFO: MacShnaknels server started
+[2026-05-21 18:37:38] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:40] INFO: MacShnaknels server started
+[2026-05-21 18:37:40] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:40] INFO: MacShnaknels server started
+[2026-05-21 18:37:40] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:41] INFO: MacShnaknels server started
+[2026-05-21 18:37:41] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:42] INFO: MacShnaknels server started
+[2026-05-21 18:37:42] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:44] INFO: MacShnaknels server started
+[2026-05-21 18:37:44] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:45] INFO: MacShnaknels server started
+[2026-05-21 18:37:45] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:46] INFO: MacShnaknels server started
+[2026-05-21 18:37:46] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:47] INFO: MacShnaknels server started
+[2026-05-21 18:37:47] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:48] INFO: MacShnaknels server started
+[2026-05-21 18:37:48] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:49] INFO: MacShnaknels server started
+[2026-05-21 18:37:49] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:50] INFO: MacShnaknels server started
+[2026-05-21 18:37:50] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:37:50] INFO: Сервер працює на http://localhost:3000
+[2026-05-21 18:37:52] INFO: POST /api/auth/login - 200 - 88ms
+[2026-05-21 18:38:08] INFO: MacShnaknels server started
+[2026-05-21 18:38:08] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:08] INFO: Сервер працює на http://localhost:3000
+[2026-05-21 18:38:08] INFO: MacShnaknels server started
+[2026-05-21 18:38:08] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:09] INFO: MacShnaknels server started
+[2026-05-21 18:38:09] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:10] INFO: MacShnaknels server started
+[2026-05-21 18:38:10] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:11] INFO: MacShnaknels server started
+[2026-05-21 18:38:11] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:12] INFO: MacShnaknels server started
+[2026-05-21 18:38:12] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:13] INFO: MacShnaknels server started
+[2026-05-21 18:38:13] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:14] INFO: MacShnaknels server started
+[2026-05-21 18:38:14] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:15] INFO: MacShnaknels server started
+[2026-05-21 18:38:15] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:16] INFO: MacShnaknels server started
+[2026-05-21 18:38:17] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:18] INFO: MacShnaknels server started
+[2026-05-21 18:38:18] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:19] INFO: MacShnaknels server started
+[2026-05-21 18:38:19] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:20] INFO: MacShnaknels server started
+[2026-05-21 18:38:20] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:21] INFO: MacShnaknels server started
+[2026-05-21 18:38:21] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:22] INFO: MacShnaknels server started
+[2026-05-21 18:38:22] INFO: GET / endpoint was called
+[2026-05-21 18:38:22] INFO: GET / - 304 - 7ms
+[2026-05-21 18:38:22] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:23] INFO: MacShnaknels server started
+[2026-05-21 18:38:23] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:24] INFO: MacShnaknels server started
+[2026-05-21 18:38:24] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:25] INFO: MacShnaknels server started
+[2026-05-21 18:38:26] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:27] INFO: MacShnaknels server started
+[2026-05-21 18:38:27] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:28] INFO: MacShnaknels server started
+[2026-05-21 18:38:28] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:29] INFO: MacShnaknels server started
+[2026-05-21 18:38:29] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:30] INFO: MacShnaknels server started
+[2026-05-21 18:38:30] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:31] INFO: MacShnaknels server started
+[2026-05-21 18:38:31] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:31] INFO: GET / endpoint was called
+[2026-05-21 18:38:31] INFO: GET / - 304 - 1ms
+[2026-05-21 18:38:32] INFO: MacShnaknels server started
+[2026-05-21 18:38:32] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:33] INFO: MacShnaknels server started
+[2026-05-21 18:38:33] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:34] INFO: MacShnaknels server started
+[2026-05-21 18:38:34] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:35] INFO: MacShnaknels server started
+[2026-05-21 18:38:35] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:36] INFO: MacShnaknels server started
+[2026-05-21 18:38:36] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:37] INFO: MacShnaknels server started
+[2026-05-21 18:38:37] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:38] INFO: MacShnaknels server started
+[2026-05-21 18:38:38] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:39] INFO: MacShnaknels server started
+[2026-05-21 18:38:39] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:40] INFO: MacShnaknels server started
+[2026-05-21 18:38:40] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:41] INFO: MacShnaknels server started
+[2026-05-21 18:38:41] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:42] INFO: MacShnaknels server started
+[2026-05-21 18:38:42] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:43] INFO: MacShnaknels server started
+[2026-05-21 18:38:43] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:44] INFO: MacShnaknels server started
+[2026-05-21 18:38:44] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:45] INFO: MacShnaknels server started
+[2026-05-21 18:38:45] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:46] INFO: MacShnaknels server started
+[2026-05-21 18:38:46] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:47] INFO: MacShnaknels server started
+[2026-05-21 18:38:47] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:48] INFO: MacShnaknels server started
+[2026-05-21 18:38:48] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:49] INFO: MacShnaknels server started
+[2026-05-21 18:38:49] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:50] INFO: MacShnaknels server started
+[2026-05-21 18:38:50] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:51] INFO: MacShnaknels server started
+[2026-05-21 18:38:51] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:53] INFO: MacShnaknels server started
+[2026-05-21 18:38:53] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:54] INFO: MacShnaknels server started
+[2026-05-21 18:38:54] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:55] INFO: MacShnaknels server started
+[2026-05-21 18:38:55] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:56] INFO: MacShnaknels server started
+[2026-05-21 18:38:56] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:57] INFO: MacShnaknels server started
+[2026-05-21 18:38:57] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:57] INFO: MacShnaknels server started
+[2026-05-21 18:38:57] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:58] INFO: MacShnaknels server started
+[2026-05-21 18:38:59] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:38:59] INFO: MacShnaknels server started
+[2026-05-21 18:39:00] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:00] INFO: MacShnaknels server started
+[2026-05-21 18:39:00] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:01] INFO: MacShnaknels server started
+[2026-05-21 18:39:01] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:02] INFO: MacShnaknels server started
+[2026-05-21 18:39:02] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:03] INFO: MacShnaknels server started
+[2026-05-21 18:39:03] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:04] INFO: MacShnaknels server started
+[2026-05-21 18:39:04] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:05] INFO: MacShnaknels server started
+[2026-05-21 18:39:05] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:06] INFO: MacShnaknels server started
+[2026-05-21 18:39:06] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:07] INFO: MacShnaknels server started
+[2026-05-21 18:39:07] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:08] INFO: MacShnaknels server started
+[2026-05-21 18:39:08] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:09] INFO: MacShnaknels server started
+[2026-05-21 18:39:09] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:10] INFO: MacShnaknels server started
+[2026-05-21 18:39:10] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:10] INFO: MacShnaknels server started
+[2026-05-21 18:39:11] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:11] INFO: MacShnaknels server started
+[2026-05-21 18:39:11] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:12] INFO: MacShnaknels server started
+[2026-05-21 18:39:12] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:13] INFO: MacShnaknels server started
+[2026-05-21 18:39:13] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:14] INFO: MacShnaknels server started
+[2026-05-21 18:39:14] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:15] INFO: MacShnaknels server started
+[2026-05-21 18:39:15] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:16] INFO: MacShnaknels server started
+[2026-05-21 18:39:16] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:17] INFO: MacShnaknels server started
+[2026-05-21 18:39:17] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:18] INFO: MacShnaknels server started
+[2026-05-21 18:39:18] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:19] INFO: MacShnaknels server started
+[2026-05-21 18:39:19] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:20] INFO: MacShnaknels server started
+[2026-05-21 18:39:20] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:21] INFO: MacShnaknels server started
+[2026-05-21 18:39:21] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:22] INFO: MacShnaknels server started
+[2026-05-21 18:39:22] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:22] INFO: MacShnaknels server started
+[2026-05-21 18:39:22] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:23] INFO: MacShnaknels server started
+[2026-05-21 18:39:24] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:25] INFO: MacShnaknels server started
+[2026-05-21 18:39:25] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:25] INFO: MacShnaknels server started
+[2026-05-21 18:39:25] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:26] INFO: MacShnaknels server started
+[2026-05-21 18:39:26] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:27] INFO: MacShnaknels server started
+[2026-05-21 18:39:27] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:28] INFO: MacShnaknels server started
+[2026-05-21 18:39:28] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:29] INFO: MacShnaknels server started
+[2026-05-21 18:39:29] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:30] INFO: MacShnaknels server started
+[2026-05-21 18:39:30] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:31] INFO: MacShnaknels server started
+[2026-05-21 18:39:31] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:32] INFO: MacShnaknels server started
+[2026-05-21 18:39:32] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:33] INFO: MacShnaknels server started
+[2026-05-21 18:39:33] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:34] INFO: MacShnaknels server started
+[2026-05-21 18:39:34] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:34] INFO: MacShnaknels server started
+[2026-05-21 18:39:34] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:35] INFO: MacShnaknels server started
+[2026-05-21 18:39:35] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:36] INFO: MacShnaknels server started
+[2026-05-21 18:39:36] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:37] INFO: MacShnaknels server started
+[2026-05-21 18:39:37] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:38] INFO: MacShnaknels server started
+[2026-05-21 18:39:39] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:40] INFO: MacShnaknels server started
+[2026-05-21 18:39:40] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:40] INFO: MacShnaknels server started
+[2026-05-21 18:39:41] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:41] INFO: MacShnaknels server started
+[2026-05-21 18:39:41] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:42] INFO: MacShnaknels server started
+[2026-05-21 18:39:42] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:44] INFO: MacShnaknels server started
+[2026-05-21 18:39:44] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:45] INFO: MacShnaknels server started
+[2026-05-21 18:39:45] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:46] INFO: MacShnaknels server started
+[2026-05-21 18:39:46] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:47] INFO: MacShnaknels server started
+[2026-05-21 18:39:47] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:48] INFO: MacShnaknels server started
+[2026-05-21 18:39:48] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:49] INFO: MacShnaknels server started
+[2026-05-21 18:39:49] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:50] INFO: MacShnaknels server started
+[2026-05-21 18:39:50] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:51] INFO: MacShnaknels server started
+[2026-05-21 18:39:51] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:52] INFO: MacShnaknels server started
+[2026-05-21 18:39:52] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:54] INFO: MacShnaknels server started
+[2026-05-21 18:39:54] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:39:54] INFO: Сервер працює на http://localhost:3000
+[2026-05-21 18:40:22] INFO: MacShnaknels server started
+[2026-05-21 18:40:22] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:40:22] INFO: Сервер працює на http://localhost:3000
+[2026-05-21 18:40:33] INFO: MacShnaknels server started
+[2026-05-21 18:40:33] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:40:33] INFO: Сервер працює на http://localhost:3000
+[2026-05-21 18:40:57] INFO: MacShnaknels server started
+[2026-05-21 18:40:57] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:40:57] INFO: Сервер працює на http://localhost:3000
+[2026-05-21 18:41:01] INFO: MacShnaknels server started
+[2026-05-21 18:41:01] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:41:02] INFO: MacShnaknels server started
+[2026-05-21 18:41:02] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:41:02] INFO: Сервер працює на http://localhost:3000
+[2026-05-21 18:41:11] INFO: POST /api/auth/logout - 200 - 14ms
+[2026-05-21 18:41:15] INFO: POST /api/auth/login - 200 - 77ms
+[2026-05-21 18:41:52] INFO: MacShnaknels server started
+[2026-05-21 18:41:52] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:41:53] INFO: MacShnaknels server started
+[2026-05-21 18:41:53] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:41:53] INFO: Сервер працює на http://localhost:3000
+[2026-05-21 18:43:16] INFO: MacShnaknels server started
+[2026-05-21 18:43:16] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:43:16] INFO: Сервер працює на http://localhost:3000
+[2026-05-21 18:43:23] INFO: MacShnaknels server started
+[2026-05-21 18:43:23] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 18:43:23] INFO: Сервер працює на http://localhost:3000
+[2026-05-21 18:43:29] INFO: POST /api/auth/logout - 200 - 14ms
+[2026-05-21 18:43:34] INFO: POST /api/auth/login - 200 - 78ms
+[2026-05-21 18:43:47] INFO: GET /api/admin/users - 200 - 13ms
+[2026-05-21 18:43:47] INFO: GET /api/admin/posts - 200 - 13ms
+[2026-05-21 18:43:52] INFO: PATCH /api/admin/users/1/role - 200 - 2ms
+[2026-05-21 18:43:52] INFO: GET /api/admin/users - 304 - 2ms
+[2026-05-21 18:47:24] INFO: GET /api/admin/users - 304 - 10ms
+[2026-05-21 18:47:24] INFO: GET /api/admin/posts - 304 - 9ms
+[2026-05-21 18:47:24] INFO: GET /api/admin/users - 304 - 6ms
+[2026-05-21 18:47:24] INFO: GET /api/admin/posts - 304 - 6ms
+[2026-05-21 18:47:31] INFO: GET /api/admin/users - 304 - 5ms
+[2026-05-21 18:47:31] INFO: GET /api/admin/posts - 304 - 6ms
+[2026-05-21 18:53:17] INFO: GET /api/admin/users - 304 - 8ms
+[2026-05-21 18:53:17] INFO: GET /api/admin/posts - 304 - 9ms
+[2026-05-21 18:53:26] INFO: GET /upload - 404 - 2ms
+[2026-05-21 18:53:54] INFO: GET /api/admin/users - 304 - 12ms
+[2026-05-21 18:53:54] INFO: GET /api/admin/posts - 304 - 11ms
+[2026-05-21 18:57:07] INFO: POST /upload - 400 - 5ms
+[2026-05-21 18:57:21] INFO: GET /upload - 404 - 0ms
+[2026-05-21 18:58:38] INFO: POST /upload - 400 - 1ms
+[2026-05-21 18:58:43] INFO: POST /upload - 400 - 2ms
+[2026-05-21 18:59:00] INFO: POST /upload - 400 - 0ms
+[2026-05-21 19:00:52] INFO: POST /upload - 400 - 1ms
+[2026-05-21 19:01:26] INFO: GET /api/admin/users - 401 - 1ms
+[2026-05-21 19:01:26] INFO: GET /api/admin/posts - 401 - 1ms
+[2026-05-21 19:01:46] INFO: GET /api/admin/users - 401 - 1ms
+[2026-05-21 19:01:46] INFO: GET /api/admin/posts - 401 - 1ms
+[2026-05-21 19:01:59] INFO: GET /api/admin/users - 401 - 1ms
+[2026-05-21 19:01:59] INFO: GET /api/admin/posts - 401 - 1ms
+[2026-05-21 19:02:03] INFO: POST /upload - 400 - 1ms
+[2026-05-21 19:04:01] ERROR: POST /upload - Unexpected end of form
+[2026-05-21 19:04:01] INFO: POST /upload - 500 - 2ms
+[2026-05-21 19:04:28] ERROR: POST /upload - Unexpected end of form
+[2026-05-21 19:04:28] INFO: POST /upload - 500 - 1ms
+[2026-05-21 19:04:43] ERROR: POST /upload - Unexpected end of form
+[2026-05-21 19:04:43] INFO: POST /upload - 500 - 1ms
+[2026-05-21 19:04:49] ERROR: POST /upload - Unexpected end of form
+[2026-05-21 19:04:49] INFO: POST /upload - 500 - 1ms
+[2026-05-21 19:05:49] ERROR: POST /upload - Unexpected end of form
+[2026-05-21 19:05:49] INFO: POST /upload - 500 - 1ms
+[2026-05-21 19:05:54] ERROR: POST /upload - Unexpected end of form
+[2026-05-21 19:05:54] INFO: POST /upload - 500 - 1ms
+[2026-05-21 19:06:40] ERROR: POST /upload - Unexpected end of form
+[2026-05-21 19:06:40] INFO: POST /upload - 500 - 1ms
+[2026-05-21 19:07:02] ERROR: POST /upload - Unexpected end of form
+[2026-05-21 19:07:02] INFO: POST /upload - 500 - 1ms
+[2026-05-21 19:07:08] ERROR: POST /upload - Unexpected end of form
+[2026-05-21 19:07:08] INFO: POST /upload - 500 - 1ms
+[2026-05-21 20:19:42] INFO: POST /upload - 400 - 1ms
+[2026-05-21 20:20:18] INFO: Single file uploaded: 1779384018730-714254906.png
+[2026-05-21 20:20:18] INFO: POST /upload - 200 - 4ms
+[2026-05-21 20:20:35] INFO: Single file uploaded: 1779384035174-219188670.pdf
+[2026-05-21 20:20:35] INFO: POST /upload - 200 - 7ms
+[2026-05-21 20:21:12] INFO: MacShnaknels server started
+[2026-05-21 20:21:12] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 20:21:12] INFO: Сервер працює на http://localhost:3000
+[2026-05-21 20:21:21] INFO: MacShnaknels server started
+[2026-05-21 20:21:21] INFO: Підключення до MySQL через Sequelize успішне
+[2026-05-21 20:21:21] INFO: Сервер працює на http://localhost:3000
+[2026-05-21 20:21:25] INFO: Single file uploaded: 1779384085925-85251329.pdf
+[2026-05-21 20:21:25] INFO: POST /upload - 200 - 14ms
+[2026-05-21 20:22:09] ERROR: POST /upload - Дозволені лише файли JPG, PNG або PDF.
+[2026-05-21 20:22:09] INFO: POST /upload - 400 - 10ms
+[2026-05-21 20:22:25] ERROR: POST /upload - Unexpected end of form
+[2026-05-21 20:22:25] INFO: POST /upload - 500 - 3ms
+[2026-05-21 20:30:34] INFO: Server status requested
+[2026-05-21 20:30:34] INFO: GET /status - 200 - 2ms
